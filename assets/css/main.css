@@ -1074,6 +1074,11 @@ input, select, textarea {
 			width: 1237.5px;
 		}
 
+		#bigImg {
+			width: 80vw;
+			height: 35vh;
+		}
+
 	/* Header */
 
 		#header nav {
