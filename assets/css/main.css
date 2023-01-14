@@ -8,8 +8,9 @@
 */
 
 .bigImg {
-	width: 80vw;
-	height: 35vh;
+	width: 40vw;
+	height: 70vh;
+	border-radius: 10px;
 }
 
 html, body, div, span, applet, object,
