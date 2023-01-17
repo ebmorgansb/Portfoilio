@@ -8,9 +8,40 @@
 */
 
 .bigImg {
-	width: 40vw;
-	height: 70vh;
+	width: 30vw;
+	height: 30vh;
 	border-radius: 10px;
+	margin: 4%;
+}
+
+.skillz {
+	color: rgb(255,255,255);
+	font-weight: bold;
+	text-shadow: 2px 2px 4px black;
+}
+
+.imgAndWords {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.name {
+	margin-top: 2%;
+	font-size: 24px;
+}
+
+.projectz {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.projs {
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 1%;
+	font-weight: bold;
 }
 
 html, body, div, span, applet, object,
