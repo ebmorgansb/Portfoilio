@@ -12,17 +12,42 @@
 	height: 30vh;
 	border-radius: 10px;
 	margin: 4%;
+	object-fit: cover;
+
 }
 
 .skillz {
 	/* color: rgb(255,255,255); */
 	font-weight: bold;
 	text-shadow: 2px 2px 4px rgb(6, 1, 1);
+	color: white;
+	/* opacity: 0; */
 }
+
+.projText {
+	background-color: white;
+	border-radius: 10px;
+	padding: 2%;
+	margin-bottom: 3%;
+	text-shadow: 2px 2px 4px rgb(6, 1, 1);
+	font-size: 14px;
+	background-color: rgb(106, 111, 111, .6);
+	font-weight: bold;
+  }
+
+  .empty {
+	color: rgb(0, 255, 255, 0);
+	margin-bottom: 5%;
+
+  }
 
 .boldText {
 	font-weight: bold;
 	text-shadow: 2px 2px 4px black;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-bottom: 2%;
 }
 
 .about {
@@ -32,7 +57,20 @@
 	/* border: 1px solid black; */
 	border-radius: 10px;
 	background-color: rgb(106, 111, 111, .2);
+	width: 90%;
+	padding: 2%;
 
+}
+
+.textAndAbout {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.tets {
+	Overflow-x:scroll;
+	margin-bottom:2%
 }
 
 .imgAndWords {
@@ -43,31 +81,50 @@
 }
 
 .name {
-	margin-top: 2%;
+	margin-top: 4%;
 	font-size: 24px;
 }
 
 .projectz {
-	font-size: 40px;
+	font-size: 44px;
 	font-weight: bold;
-	margin-top: 1%;
-	margin-bottom: 2%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	/* display: flex;
+	flex-direction: row; */
+	text-align: center;
+}
+
+.projCard {
+	/* display: flex; */
+	/* flex-direction: column; */
+	width: 24vw;
+	height: 30vh;
+}
+
+.allProjs {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .projs {
-	margin-left: 2%;
-	margin-right: 2%;
+	/* margin-left: 3%;
+	margin-right: 3%; */
 	/* margin-top: 1%; */
-	padding-top: 2%;
-	padding-bottom: 2%;
+	/* padding-top: 2%; */
+	/* padding-bottom: 2%; */
 	font-weight: bold;
 	text-decoration: none;
 	text-shadow: 2px 2px 4px black;
-
+	width: 24vw;
+	height: 30vh;
+	border-radius: 20px;
+	object-fit: cover;
 }
 
 .projs:hover {
-	color: rgb(232, 67, 109);
+	box-shadow: 2px 2px 30px rgba(0, 0, 0, 1);
 }
 
 html, body, div, span, applet, object,
@@ -626,7 +683,7 @@ input, select, textarea {
 		#header p {
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
-			opacity: 0.75;
+			/* opacity: 0.75; */
 		}
 
 		#header nav {
