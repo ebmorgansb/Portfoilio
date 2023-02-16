@@ -17,12 +17,27 @@
 
 }
 
-.skillz {
+#skillz {
 	/* color: rgb(255,255,255); */
 	font-weight: bold;
 	text-shadow: 2px 2px 4px rgb(6, 1, 1);
 	color: white;
-	/* opacity: 0; */
+	border-radius: 10px;
+	background-color: rgb(106, 111, 111, .5);
+	padding: 2%;
+	width: 75vw;
+	text-align: center;
+	margin-right: 0px;
+}
+
+.newSkills {
+	font-weight: bold;
+	text-shadow: 4px 4px 8px rgb(6, 1, 1);
+	color: white;
+	font-size: 150%;
+	margin-bottom: 3%;
+	/* border-radius: 5px; */
+	/* background-color: rgb(106, 111, 111, .5); */
 }
 
 .projText {
@@ -689,7 +704,7 @@ html * {
 
 		#header p {
 			font-size: 1.25em;
-			margin: 0.75em 0 0.25em 0;
+			/* margin: 0.75em 0 0.25em 0; */
 			/* opacity: 0.75; */
 		}
 
